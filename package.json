@@ -2,12 +2,17 @@
   "name": "my-tinypack",
   "version": "1.0.0",
   "description": "my webpack ",
-  "bin": {
-    "my-tinypack": "pack.js"
-  },
   "directories": {
     "example": "examples",
     "lib": "lib"
+  },
+  "main": "index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "tinypack": "./bin/pack"
   },
   "repository": {
     "type": "git",
