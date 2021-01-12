@@ -2,7 +2,6 @@
   "name": "my-tinypack",
   "version": "1.0.0",
   "description": "my webpack ",
-  "main": "index.js",
   "bin": {
     "my-tinypack": "pack.js"
   },
