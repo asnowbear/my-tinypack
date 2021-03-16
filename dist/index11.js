@@ -14,7 +14,7 @@
   require('./src/index.js');
 })(
   {
-  './src/index.js' : function(require, module, exports) { 
+  './src/index.js' : function(require, module, exports) {
       "use strict";
 
       var _test = require("./test.js");
@@ -28,6 +28,8 @@
   './test.js' : function(require, module, exports) { 
       "use strict";
 
+      // writable enumerable configurable采用默认值， 
+      //表示 __esModule属性，不能遍历、删除，并且只读
       Object.defineProperty(exports, "__esModule", {
         value: true
       });
